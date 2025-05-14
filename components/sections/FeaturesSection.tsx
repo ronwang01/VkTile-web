@@ -36,7 +36,7 @@ export default function FeaturesSection() {
             </div>
             <h3 className="mb-2 text-xl font-bold">Kitchen Backsplashes</h3>
             <p className="text-muted-foreground">
-              Beautiful, functional backsplashes that protect your walls and enhance your kitchen's style.
+              Beautiful, functional backsplashes that protect your walls and enhance your kitchen&apos;s style.
             </p>
           </div>
 

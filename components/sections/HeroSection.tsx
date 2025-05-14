@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Construction } from "lucide-react"
 
@@ -21,14 +22,14 @@ export default function HeroSection() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row pt-4">
-              <a href="/#contact">
+              <Link href="/#contact">
                 <Button
                   size="lg"
                   className="rounded-full px-8 py-6 bg-primary hover:bg-primary/90 shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all duration-300 text-white"
                 >
                   Get Free Quote <ArrowRight className="h-4 w-4 ml-2" />
                 </Button>
-              </a>
+              </Link>
               <div className="relative">
                 <Button
                   size="lg"

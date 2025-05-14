@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Diamond, Phone, Mail } from "lucide-react"
+import { Diamond, Phone } from "lucide-react"
 
 export default function Header() {
   return (

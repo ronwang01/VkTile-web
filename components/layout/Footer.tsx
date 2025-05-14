@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Diamond, Instagram } from "lucide-react"
 
 export default function Footer() {
@@ -20,7 +21,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <Link href="https://www.yelp.com/biz/v-k-tile-everett" target="_blank" className="text-primary hover:text-primary/80 transition-colors duration-200">
-                <img src="yelp.svg" alt="Yelp" className="h-5 w-5" />
+                <Image src="/yelp.svg" alt="Yelp" width={10} height={10} className="h-5 w-5" />
                 <span className="sr-only">Yelp</span>
               </Link>
 

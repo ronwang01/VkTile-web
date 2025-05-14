@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CheckCircle } from "lucide-react"
 
@@ -46,11 +47,11 @@ export default function PricingSection() {
                 <span>Free estimate</span>
               </li>
             </ul>
-            <a href="/#contact">
+            <Link href="/#contact">
               <Button className="w-full rounded-full bg-primary hover:bg-primary/90 shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all duration-300">
                 Book Appointment
               </Button>
-            </a>
+            </Link>
           </div>
 
           {/* Standard Plan */}
@@ -83,11 +84,11 @@ export default function PricingSection() {
                 <span>3-year warranty</span>
               </li>
             </ul>
-            <a href="/#contact">
+            <Link href="/#contact">
               <Button className="w-full rounded-full bg-secondary hover:bg-secondary/90 shadow-lg shadow-secondary/20 hover:shadow-secondary/40 transition-all duration-300">
                 Get Quote
               </Button>
-            </a>
+            </Link>
           </div>
 
           {/* Premium Plan */}
@@ -117,11 +118,11 @@ export default function PricingSection() {
                 <span>5-year warranty</span>
               </li>
             </ul>
-            <a href="/#contact">
+            <Link href="/#contact">
               <Button className="w-full rounded-full bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg shadow-accent/20 hover:shadow-accent/40 transition-all duration-300">
                 Get Quote
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

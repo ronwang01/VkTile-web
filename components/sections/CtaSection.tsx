@@ -1,6 +1,6 @@
 'use client'
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Construction, Send } from "lucide-react"
+import { Send } from "lucide-react"
 import { useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -97,7 +97,7 @@ export default function CtaSection() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-medium text-foreground">Message Sent!</h3>
-                <p className="text-muted-foreground">We'll get back to you shortly.</p>
+                <p className="text-muted-foreground">We will get back to you shortly.</p>
               </div>
             ) : (
               <Form {...form}>

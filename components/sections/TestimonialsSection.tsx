@@ -27,7 +27,7 @@ export default function TestimonialsSection() {
               <div className="relative">
                 <div className="absolute inset-0 bg-primary/20 rounded-full blur-sm"></div>
                 <Image
-                  src="/placeholder.svg?height=60&width=60"
+                  src="/johnson.jpg?height=60&width=60"
                   width={60}
                   height={60}
                   alt="Customer"
@@ -42,8 +42,8 @@ export default function TestimonialsSection() {
             <div className="mt-4 text-muted-foreground relative">
               <span className="absolute -top-2 -left-2 text-4xl text-primary/20">❝</span>
               <p className="relative z-10 pl-4">
-                "VK Tile transformed our outdated bathroom into a spa-like retreat. The attention to detail was
-                impressive, and they finished on time and on budget."
+                &quot;VK Tile transformed our outdated bathroom into a spa-like retreat. The attention to detail was
+                impressive, and they finished on time and on budget.&quot;
               </p>
             </div>
           </div>
@@ -54,7 +54,7 @@ export default function TestimonialsSection() {
               <div className="relative">
                 <div className="absolute inset-0 bg-secondary/20 rounded-full blur-sm"></div>
                 <Image
-                  src="/placeholder.svg?height=60&width=60"
+                  src="/chen.jpg?height=60&width=60"
                   width={60}
                   height={60}
                   alt="Customer"
@@ -69,8 +69,8 @@ export default function TestimonialsSection() {
             <div className="mt-4 text-muted-foreground relative">
               <span className="absolute -top-2 -left-2 text-4xl text-secondary/20">❝</span>
               <p className="relative z-10 pl-4">
-                "The kitchen backsplash Vadim installed is the highlight of our remodel. Their team was
-                professional, clean, and highly skilled."
+                &quot;The kitchen backsplash Vadim installed is the highlight of our remodel. Their team was
+                professional, clean, and highly skilled.&quot;
               </p>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function TestimonialsSection() {
               <div className="relative">
                 <div className="absolute inset-0 bg-accent/20 rounded-full blur-sm"></div>
                 <Image
-                  src="/placeholder.svg?height=60&width=60"
+                  src="/rodriguez.jpg?height=60&width=60"
                   width={60}
                   height={60}
                   alt="Customer"
@@ -96,8 +96,8 @@ export default function TestimonialsSection() {
             <div className="mt-4 text-muted-foreground relative">
               <span className="absolute -top-2 -left-2 text-4xl text-accent/20">❝</span>
               <p className="relative z-10 pl-4">
-                "We had tile installed throughout our main floor, and the results are stunning. Their
-                craftsmanship is exceptional, and they were a pleasure to work with."
+                &quot;We had tile installed throughout our main floor, and the results are stunning. Their
+                craftsmanship is exceptional, and they were a pleasure to work with.&quot;
               </p>
             </div>
           </div>
