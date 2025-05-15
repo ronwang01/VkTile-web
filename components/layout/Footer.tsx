@@ -111,7 +111,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} VK Tile. All rights reserved.
+          &copy; {new Date().getFullYear()} V.K-Tile. All rights reserved.
         </div>
       </div>
     </footer>
